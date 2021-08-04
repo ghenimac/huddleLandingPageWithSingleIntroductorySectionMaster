@@ -1,0 +1,138 @@
+body {
+	background-color: hsl(257, 40%, 49%);
+	background-image: url(images/bg-desktop.svg);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: contain;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: white;
+
+}
+
+.logo img {
+   	 width:15vw;
+   	 position: absolute;
+   	 top: 6vh;
+   	 left: 3vw;
+   }
+   .illustration img {
+   	 width: 43vw;
+   	 position: absolute;
+   	 top: 25vh;
+   	 left: 4vw;
+   }
+   h1 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 33px;
+}
+   .text {
+	position: absolute;
+	width: 68vh;
+	top: 25vh;
+	left: 50vw;
+	
+}
+.button {
+	position: relative;
+	border-radius: 30px;
+	width: 37%;
+	border: none;
+	padding: 13px;
+	font-size: 0.9rem;
+	color: RGB(89,73,146);
+	top:1vh;
+	box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.3);
+}
+.button:hover {
+	background-color: RGB(233,128,231);
+  	color: white;
+}
+.social {
+	position: absolute;
+	display: flex;
+	top: 91vh;
+	right: 15vw;
+
+}
+.icon {
+	font-size: 1rem;
+	color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    margin-right: 2vw;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0.1vh;
+}
+.icon:hover {
+	color: RGB(233,128,231);
+	border-color: RGB(233,128,231);
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+footer {
+	position: absolute;
+	top: 97vh;
+	left: 5vh;
+
+}
+.attribution { font-size: 11px; text-align: center; }
+
+
+
+@media only screen and (max-width: 375px) {
+    body { 
+        background-image: url('images/bg-mobile.svg'); 
+        height: 125vh;
+    }
+   .logo img {
+   	 width:33vw;
+   	 top: 5vh;
+   	 left: 10vw;
+   }
+   .illustration img {
+   	 width: 80vw;
+   	 top: 18vh;
+   	 left: 10vw;
+   	 right: 10vh;
+   }
+   h1 {
+	font-size: 25px;
+}
+   .text {
+	width: 40vh;
+	top:55vh;
+	left: 10vw;
+	text-align: center;
+
+}
+.text p {
+	margin-top: 0px;
+}
+.button {
+	border-radius: 20px;
+	width: 65%;
+	padding: 10px;
+}
+.social {
+	display: flex;
+	left: 27vw;
+	top: 115vh;
+}
+footer {
+	top: 125vh;
+	left: 5vh;
+}
+}
+
+
+
